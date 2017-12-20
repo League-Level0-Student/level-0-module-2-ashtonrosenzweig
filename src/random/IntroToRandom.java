@@ -16,11 +16,12 @@ public class IntroToRandom {
 		//2. Now make r random. 
 		//   Create an object of the Random class
 		//   Hint: new Random().nextInt()
-
+Random gen = new Random();
+r = gen.nextInt();
 		//3. Limit the random number between 0 and 100
-
+r = gen.nextInt(101);
 		//4. Limit the random number between 25 and 75. Hint: (highest value - lowest value) + lowest value
-
+r = gen.nextInt(51) + 25;
 		//5. Challenge: Limit the random number between -222 and 88
 
 
